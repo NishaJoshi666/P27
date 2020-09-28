@@ -58,7 +58,7 @@ function draw() {
 
 function keyPressed(){
 if(keyCode === 32){
-  Matter.Body.setPosition(ball2.body, {x: 32 , y: -32});
+  Matter.Body.setPosition(ball2.body, {x: 42 , y: -42});
 }
   
 
